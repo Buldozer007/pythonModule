@@ -2,7 +2,7 @@
 
 
 
-def print_lol(the_list , level):
+def print_lol(the_list , level=0):
     """So , how it works ? It works very simple .
     Cycle helps to find item that is list (using isinstance BIF)
     ,and if it's a list function is printing it and if it's not a
